@@ -30,3 +30,4 @@ sudo install -m 0755 "$tmp_dir/kubectl" /usr/local/bin/kubectl
 sudo usermod -aG docker "$USER"
 echo "Installed Docker, K3d $K3D_VERSION, and kubectl $KUBECTL_VERSION."
 echo "Log out and back in to activate Docker group membership."
+
